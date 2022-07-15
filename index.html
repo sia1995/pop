@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Homework</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png">
+    <script src="https://cdn.jsdelivr.net/npm/less@4"></script>
+    <script src="https://kit.fontawesome.com/fc8263d9c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet/less" type="text/css" href="styles.less"/>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header_container">
+        <img class="header_container__logo" src="assets/logo.jpeg" alt="Logo">
+        <nav class="header_container__nav">
+          <i class="fa-solid fa-bell fa-lg"></i>
+
+          <div class="profile_logo">
+            <span class="profile_logo__text">A</span>
+          </div>
+
+          <input type="checkbox"/>
+
+          <ul>
+            <li>Anastasiia Pylypchuk</li>
+            <li>Profile</li>
+            <li>Logout</li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="main">
+        <div class="main_content">
+          <img alt="Bad luck!" src="assets/bad-luck.gif">
+          <h1>404</h1>
+          <h2>Oh no, bad luck!</h2>
+          <p>The project you are looking for could have been deleted or never have existed.</p>
+        </div>
+
+        <div class="main_toasts">
+          <div class="main_toasts__item error">
+            <i class="fa-solid fa-circle-xmark fa-2x"></i>
+            <div class="main_toasts__item--info">
+              <h3>Error</h3>
+              <p>Something went wrong. <br> Please try later.</p>
+            </div>
+          </div>
+
+          <div class="main_toasts__item success">
+            <i class="fa-solid fa-circle-check fa-2x"></i>
+            <div class="main_toasts__item--info">
+              <h3>Success</h3>
+              <p>Profile was updated.</p>
+            </div>
+          </div>
+
+          <!-- <div class="main_toasts__item warning">
+            <i class="fa-solid fa-circle-check fa-2x"></i>
+            <div class="main_toasts__item--info">
+              <h3>Warning</h3>
+              <p>Deadline is comming.</p>
+            </div>
+          </div> -->
+        </div>
+    </main>
+  </body>
+</html>
